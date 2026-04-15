@@ -17,6 +17,7 @@
   padding: 0;
   position: relative;
   left: 50%;
+  float: left;
 }
 
 #navbar-container ul li {
@@ -34,13 +35,17 @@
   background-color: #000;
 }
 
+#navbar-container ul li a:hover {
+  background-color: #000;
+}
+
 #onpage {
   text-decoration: underline overline;
 }
 
 #sidebar {
   position: fixed;
-  right:0%;
+  right: 0%;
   background-color: red;
   height: 100%;
   width: 20%;
@@ -57,5 +62,9 @@
   padding: 15px 0;
   color: #fff;
   text-decoration: none;
+  background-color: #000;
+}
+
+#sidebar ul li a:hover {
   background-color: #000;
 }
